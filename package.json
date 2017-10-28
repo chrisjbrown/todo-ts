@@ -1,8 +1,10 @@
 {
   "name": "my-todo-ts",
+  "homepage": "https://chrisjbrown.github.io/todo-ts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^1.0.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts-ts": "2.8.0"
@@ -10,6 +12,8 @@
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
