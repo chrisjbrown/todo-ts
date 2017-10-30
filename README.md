@@ -1,5 +1,6 @@
 Just another todo app, build w/ React + Typescript
 
+[Live](https://chrisjbrown.github.io/todo-ts/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
